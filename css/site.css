@@ -6,17 +6,6 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100px; 
-    max-height: 100px;
-    width: auto; 
-    height: auto;
-    margin: 10px auto; 
-    border-radius: 10px;
-    object-fit: cover; 
-    display: block; /* Asegúrate de que sea un elemento en bloque */
-}
-
 
 html,
 body {
@@ -149,7 +138,14 @@ body {
 }
 
 .portofolio img {
-    max-width: 100%;
+    max-width: 100px; 
+    max-height: 100px;
+    width: auto; 
+    height: auto;
+    margin: 10px auto; 
+    border-radius: 10px;
+    object-fit: cover; 
+    display: block; /* Asegúrate de que sea un elemento en bloque */
 }
 
 .modal {
